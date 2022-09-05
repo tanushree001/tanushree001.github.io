@@ -1,0 +1,33 @@
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+#women{
+    padding: 80px 0px;
+}
+.women-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.women-box{
+    flex-basis: 15%;
+    box-shadow: 2px 3px 5px grey;
+    padding: 10px;
+    text-align: center;
+}
+.women-box img{
+    width: 100%;
+}
+.women-box h2{
+    margin: 20px 0px;
+}
+.women-box h3{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.women-box:hover{
+    transform: translateY(-20px);
+    transition: 0.4s ease;
+}
